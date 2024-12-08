@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body{
+  background-color: 	#FFE5B4;
+  color: black;
+  font-size: larger;
+  font-family: poppins;
+}
+
+.navbar a{
+  font-family: 'Oswald';
+  font-weight: 100;
+}
+
+.navbar-nav{
+  margin: auto;
+  font-weight: 100;
+  font-family: 'Times New Roman';
+}
+
+.navbar a{
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none; 
+  margin: 5px;
+}
+
+.navbar a:hover{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.navbar a:active{
+  text-decoration: underline;
+}
+
+#first{
+height: 100vh;
+}
+
+.home{
+  border-radius: 10px;
+}
+
+.welcome-note{
+  height: 70vh; 
+  align-content: center;
+  justify-content: center;
+}
+
+.about-me{
+  text-align: justify;
+  align-content: center;
+}
+
+.about-me p{
+  font-size: 1.5rem;
+  text-align:justify; 
+}
+
+.education{
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.html img:hover{
+  background-color: orangered; 
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.css img:hover{
+  background-color: blue;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.js img:hover{
+  background-color: yellow;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.python img:hover{
+  background: linear-gradient(to top, #ffed23, #1f4fc8);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.c-lan img:hover{
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.sql img:hover{
+  background-color: violet;
+  border-radius: 5px;
+  border: 1px solid black; 
+}
+
+.lph-img{
+  background-color: #ffed23;
+  border: 1px solid white;
+}
+
+.project-card-fem img{
+  border-radius: 10px;
+}
+
+.project-card-fem{
+  background-color: #1f4fc8;
+  border: 1px white solid;
+}
+
+.projects img{
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  margin: auto;
+}
+
+.intern-card{
+  text-align: start;
+  align-content: center;
+}
+
+.intern-card img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+.trio-card{
+  background-color: black;
+}
+
+.exposys-card{
+  background-color: darkgray;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.links img{
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+}
